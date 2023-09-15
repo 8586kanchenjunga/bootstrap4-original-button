@@ -1,0 +1,35 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 80px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #F8F9FA;
+}
+
+
+/* ボタンの独自　violet
+-------------------------------------------------- */
+.btn-violet {
+    color: #fff;
+    background-color: #AA4C8F;
+    border-color: #AA4C8F;
+}
+.btn-violet:hover {
+    color: #fff;
+    background-color: #853C70;
+    border-color: #853C70;
+}
+.btn-violet:disabled {
+    pointer-events: none;
+}
